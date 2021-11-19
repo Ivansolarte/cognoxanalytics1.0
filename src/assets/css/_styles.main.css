@@ -1,0 +1,17 @@
+/* Import general */
+@import url('./general/general.tailwind.css');
+@import url('./general/login.tailwind.css');
+
+
+/* ./src/index.css */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply py-2 px-4 rounded;
+}
+
+.btn-blue {
+    @apply bg-red-500 text-white;
+} */

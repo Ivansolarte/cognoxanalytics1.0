@@ -1,0 +1,77 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+   
+    .fondo{
+        @apply container mx-auto bg-blue-500;
+    }
+    .img-fund {
+        @apply h-screen bg-cover relative ;
+    }
+    .col-content{
+        @apply col-start-2 xl:col-start-1;
+    }
+
+    /* //style button// */
+    .btn {
+        @apply py-2 px-4 rounded border;
+    }
+    
+    .btn-cancel {
+        @apply bg-red-400 text-white hover:bg-pink-300;
+    }
+
+    .btn-send {
+        @apply bg-green-600 text-white hover:bg-green-300;
+    }
+
+    .btn-edit {
+        @apply bg-blue-500 text-white hover:bg-blue-300;
+    }
+    .btn-deleted {
+        @apply bg-red-600 text-white hover:bg-red-200;
+    }
+
+    /* //LINK// */
+    .a-link{
+        @apply grid justify-items-center text-base text-gray-700 hover:text-black  cursor-pointer;
+    }
+    
+    .h1{
+        @apply text-3xl text-white ;
+    }
+    .logo{
+        @apply h-16 w-28 top-4 right-7 absolute ;
+    }
+    .col{
+        @apply grid grid-cols-1  min-h-screen; 
+    }
+    .col-2{
+        @apply grid grid-cols-1  min-h-screen sm:grid-cols-2 ;
+    }
+    /* //columnas del LOGIN// */
+    .col-3{
+        @apply grid grid-cols-1 min-h-screen md:grid-cols-3 ;
+    }    
+   
+    /* //style de caja de texto// */
+    .input-default{
+        @apply w-full h-20 m-auto my-1 pl-10 text-2xl rounded-lg 
+    }
+    .input-alert{
+        @apply w-full h-20 m-auto my-1 pl-10 text-2xl rounded-lg bg-red-100;
+    }
+    /* //style de los botones "enviar"// */
+    .btn-success{
+        @apply bg-green-400  h-20 w-full text-2xl font-bold rounded-md my-6
+    }
+
+    /* //// codifo de prueba  */
+    .prueba{
+        @apply bg-pink-600 
+    }
+}
+

@@ -1,0 +1,14 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .login_btn {
+        @apply bg-red-700;
+    }
+    .login__titulo {
+        
+    }
+}

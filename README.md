@@ -1,0 +1,2 @@
+# cognoxanalytics
+ base aplicacion
